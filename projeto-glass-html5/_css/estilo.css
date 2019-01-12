@@ -27,10 +27,49 @@ figure.foto-legenda figcaption{
 	height: 100%;
 	padding: 10px;
 	box-sizing: border-box;
- 	transition: opacity 1s;    
+ 	transition: opacity 1s;    /*   */
 }
 /* Sobreposição em cima da imagem */
 figure.foto-legenda:hover figcaption{
 	opacity: 1;
-	
 }
+
+/* Formatação do Menu */
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;  /* Letras maiusculas*/
+	position: absolute;
+	top: -20px;
+	left: 500px;
+}
+nav#menu li{
+	display:inline-block;   /* Para colocar os menus um do lado do outro*/
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;	
+	transition: background-color 1s;
+}
+
+/* "hover" Quando passa o mouse em cima fica interativo*/
+nav#menu li:hover{
+	background-color:#606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+nav#menu a:hover {
+	color: #ffffff
+}
+
+
